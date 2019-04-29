@@ -1,0 +1,107 @@
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 3rem;
+    background-image: url("background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.head-flex {
+    color: #f7931e;
+    background-color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bolder;
+}
+
+caption {
+    color: #edff00;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.error {
+    color: red;
+}
+
+table {
+    text-align: center;
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    background: #2196F3;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.list-group {
+    text-align: center;
+}
+
+form {
+    margin-block-end: 0;
+}
+
+section {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.custom-nav {
+    background-color: #002041 !important;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.custom-nav a {
+    color: #fff !important;
+}
+
+.nav-item {
+    border-top: #002041 5px solid !important;
+}
+
+.nav-item.active {
+    border-top: #F7931E 5px solid !important;
+    background-color: #ffffff !important;
+}
+
+.nav-item.active > a {
+    color: #f7931e !important;
+}
+
+.nav-item:hover {
+    border-top: #F7931E 5px solid !important;
+    background-color: #ffffff !important;
+}
+
+.nav-item:hover > a {
+    color: #f7931e !important;
+}
+
+#notification {
+    position: fixed;
+    bottom: 60px;
+    left: 25px;
+    width: auto;
+    height: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    white-space: normal;
+    z-index: 1000;
+}
+
+.close-notification:hover {
+    cursor: pointer;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
