@@ -1,5 +1,5 @@
 # Automated-Timetable-Generator
-A java application to generate timetable.
+A java application to generate timetables.
 
 It is a NP-Complete problem and Genetic Algorithm is used to generate best timetable according to constraints.
 
