@@ -32,5 +32,8 @@ More features:
   6. Bootstrap 4 is for UI design.
   
 User interface:
-  1. index.jsp
-  
+  1. index.jsp:
+    Here last generated timetable will be shown.
+    ![alt index](https://github.com/16sumanrana/Automated-Timetable-Generator/blob/master/index.png)
+    
+  2. 
