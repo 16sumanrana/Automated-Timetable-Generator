@@ -34,7 +34,7 @@ More features:
   
 User interface:
   1. index.jsp:
-    Here last generated timetable will be shown.
+    Here last generated timetables will be shown.
     ![index](https://github.com/16sumanrana/Automated-Timetable-Generator/blob/master/img/index.png)
     
   2. generate.jsp:
