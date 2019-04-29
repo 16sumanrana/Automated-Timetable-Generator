@@ -4,32 +4,33 @@ A java application to generate timetable.
 It is a NP-Complete problem and Genetic Algorithm is used to generate best timetable according to constraints.
 
 Constraints:
-  1. Two teachers can't be assigned to the same period, same class in some day.
+  1. Two teachers can't be assigned to the same period for a class in some day.
   2. A teacher can't be assigned to two different classes at same time in some day.
-  3. For two consicutive periods, subjects can't be same.
-  4. Maximum 2 periods is allowed for a teacher for some class.
+  3. For two consicutive periods, two subjects can't be same.
+  4. Maximum 2 periods is allowed for a teacher for some class in a day.
   
 Some assumptions:
   1. There is not blank period for a class in some day.
   2. There are enough teachers such that all constrains will be satisfied.
   
 Procedure:
-  1. Genetic algorithm is used to generate timetable.
+  1. Genetic algorithm is used.
   2. At first 10 schedules are created randomly and they are sorted according to their no of conflicts.
-  3. From 10 schedules 50% new schedules are created by crossover.
+  3. From 10 schedules 50% new schedules are created by crossover using roulette wheel selection.
   4. 25% new schedules are created by mutation.
   5. Remaining 25% new schedules are created.
   6. From 20 schedules 10 best schedules are selected for next generation.
-  7. (2, 3, 4, 5) steps are continued until no of conflicts of any schedule becomes 0.
+  7. (3, 4, 5, 6) steps are continued until no of conflicts of any schedule becomes 0.
   8. Maximum 50000 generation is allowed.
   
 More features:
   1. JAVA is used as programming language to deploy this application.
-  2. JSP is used for user interface.
+  2. JSP is used to create user interface.
   3. JDBC is also used to store and manipulate data.
   4. MySQL DB is used here for DB server.
   5. Tomcat 9.0.17 is used as localserver.
   6. Bootstrap 4 is for UI design.
+  7. HTML, CSS, JavaScript and Ajax are basic components.
   
 User interface:
   1. index.jsp:
@@ -71,3 +72,10 @@ User interface:
 References:
   1. [https://www.youtube.com/watch?v=cn1JyZvV5YA&ab_channel=zaneacademy](https://www.youtube.com/watch?v=cn1JyZvV5YA&ab_channel=zaneacademy)
   2. [https://www.youtube.com/watch?v=frB2zIpOOBk&ab_channel=AskFaizan](https://www.youtube.com/watch?v=frB2zIpOOBk&ab_channel=AskFaizan)
+  
+Todo list:
+  1. Make this application more efficient.
+  2. Use this application capable to generate timetables for many institutes.
+  
+  
+  Efficient approches are welcomed.
