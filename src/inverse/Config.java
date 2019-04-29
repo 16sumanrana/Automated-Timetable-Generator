@@ -2,8 +2,8 @@ package inverse;
 
 public class Config {
     public static final String URL = "jdbc:mysql://localhost:3306/automatictimetablegenerator";
-    public static final String USERNAME = "root";
-    public static final String PASSWORD = "Rana@16102000";
+    public static final String USERNAME = "guest";
+    public static final String PASSWORD = "guest";
     public static final String BASEURL = "http://localhost:8080/Automated_Timetable_Generator_war_exploded";
     public static final String STATUSFILEPATH = "C:\\Users\\Suman Rana\\IdeaProjects\\Automated-Timetable-Generator\\src\\inverse\\output.txt";
 
