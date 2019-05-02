@@ -123,11 +123,8 @@ public class Main extends HttpServlet {
                             return;
                         }
                         try {
-                            String url = "jdbc:mysql://localhost:3306/automatictimetablegenerator";
-                            String username = "root";
-                            String password = "Rana@16102000";
                             String query;
-                            Connection con = DriverManager.getConnection(url, username, password);
+                            Connection con = DriverManager.getConnection(Config.URL, Config.USERNAME, Config.PASSWORD);
                             query = "update timetable set timetableobject=? where id=?";
                             Statement st = con.createStatement();
                             PreparedStatement prst = con.prepareStatement(query);
